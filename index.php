@@ -1,6 +1,19 @@
 <?php
 declare(strict_types=1);
+
+require_once __DIR__ . '/data.php';
+require_once __DIR__ . '/functions.php';
+
+$totalMataKuliah = count($mataKuliah);
+$totalSks = hitungTotalSks($mataKuliah);
+
+$daftarSemester = array_unique(
+    array_column($mataKuliah, 'semester')
+);
+
+sort($daftarSemester);
 ?>
+
 <!DOCTYPE html>
 <html lang="id">
 <head>
@@ -32,12 +45,37 @@ declare(strict_types=1);
                 <p>Universitas: Tiga Serangkai University</p>
             </article>
 
-            <article>
-                <h3>Ringkasan Akademik</h3>
-                <p>Semester: Belum ditentukan</p>
-                <p>Total Mata Kuliah: Belum tersedia</p>
-                <p>Total SKS: Belum tersedia</p>
-            </article>
+
+<article>
+    <h3>Ringkasan Akademik</h3>
+
+    <p>Cakupan Data: Semua Semester</p>
+
+    <p>
+        Total Mata Kuliah:
+        <?= e($totalMataKuliah) ?>
+    </p>
+
+    <p>
+        Total SKS:
+        <?= e($totalSks) ?>
+    </p>
+
+    <h3>IPS per Semester</h3>
+
+    <?php foreach ($daftarSemester as $semester): ?>
+        <p>
+            Semester <?= e($semester) ?>:
+            <?= e(number_format(
+                hitungIPS($mataKuliah, (int) $semester),
+                2,
+                ',',
+                '.'
+            )) ?>
+        </p>
+    <?php endforeach; ?>
+</article>
+
         </section>
     </main>
 
