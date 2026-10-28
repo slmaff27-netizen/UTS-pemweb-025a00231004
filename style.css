@@ -1,0 +1,199 @@
+
+/* ===== PENGATURAN DASAR ===== */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #F7F8F5;
+    color: #333333;
+    line-height: 1.6;
+}
+
+/* ===== HEADER ===== */
+header {
+    background-color: #A8BBA3;
+    color: #ffffff;
+    padding: 24px 40px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 28px;
+}
+
+header p {
+    margin: 5px 0 0;
+}
+
+/* ===== NAVIGASI ===== */
+nav {
+    background-color: #717F6D;
+    padding: 12px 40px;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    margin-right: 24px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* ===== KONTEN UTAMA ===== */
+main {
+    max-width: 1100px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+section,
+article {
+    background-color: #ffffff;
+    padding: 24px;
+    margin-bottom: 24px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+}
+
+h2 {
+    color: #486C2F;
+    margin-top: 0;
+}
+
+h3 {
+    color: #486C2F;
+}
+
+/* ===== FORM FILTER SEMESTER ===== */
+form {
+    margin: 20px 0;
+}
+
+label {
+    font-weight: bold;
+    margin-right: 8px;
+}
+
+select,
+button {
+    padding: 10px 14px;
+    border: 1px solid #A8BBA3;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+select {
+    background-color: #ffffff;
+    color: #333333;
+}
+
+button {
+    background-color: #717F6D;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #586653;
+}
+
+/* ===== TABEL KATALOG ===== */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #ffffff;
+}
+
+th,
+td {
+    padding: 12px;
+    border: 1px solid #dddddd;
+    text-align: left;
+}
+
+th {
+    background-color: #A8BBA3;
+    color: #ffffff;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #F3F6F0;
+}
+
+tbody tr:hover {
+    background-color: #E7EDE3;
+}
+
+/* ===== STATUS KELULUSAN ===== */
+.status-lulus {
+    display: inline-block;
+    background-color: #E2F2E3;
+    color: #276738;
+    padding: 4px 10px;
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.status-mengulang {
+    display: inline-block;
+    background-color: #FBE7E5;
+    color: #A52A2A;
+    padding: 4px 10px;
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+/* ===== FOOTER ===== */
+footer {
+    background-color: #717F6D;
+    color: #ffffff;
+    text-align: center;
+    padding: 16px;
+    margin-top: 40px;
+}
+
+/* ===== TAMPILAN HP ===== */
+@media (max-width: 600px) {
+    header {
+        padding: 20px;
+    }
+
+    nav {
+        padding: 12px 20px;
+    }
+
+    nav a {
+        display: inline-block;
+        margin: 4px 12px 4px 0;
+    }
+
+    main {
+        margin: 20px auto;
+        padding: 0 12px;
+    }
+
+    section,
+    article {
+        padding: 16px;
+    }
+
+    table {
+        display: block;
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+
+    select,
+    button {
+        margin-top: 8px;
+    }
+}
