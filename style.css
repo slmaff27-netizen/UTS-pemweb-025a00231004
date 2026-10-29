@@ -197,3 +197,24 @@ footer {
         margin-top: 8px;
     }
 }
+
+/* ===== HEADER DAN FOTO PROFIL ===== */
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.header-text {
+    flex: 1;
+}
+
+.foto-profil {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #ffffff;
+    flex-shrink: 0;
+}

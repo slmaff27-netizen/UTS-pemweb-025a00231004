@@ -23,10 +23,20 @@ sort($daftarSemester);
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>MyAcademic</h1>
-        <p>Rekap Nilai dan Kartu Rencana Studi Pribadi</p>
-    </header>
+<header>
+    <div class="header-container">
+        <div class="header-text">
+            <h1>MyAcademic</h1>
+            <p>Rekap Nilai dan KRS Pribadi</p>
+        </div>
+
+        <img
+            src="Assets/foto.jpg"
+            alt="Foto profil mahasiswa"
+            class="foto-profil"
+        >
+    </div>
+</header>
 
     <nav>
         <a href="index.php">Profil Mahasiswa</a>
