@@ -54,8 +54,8 @@ Daftar ini akan disesuaikan dengan fungsi yang benar-benar digunakan dalam kode 
 
 Tangkapan layar halaman profil dan halaman rekap nilai akan ditambahkan setelah tampilan website selesai.
 
-- Halaman profil: `screenshots/halaman-profil.png`
-- Halaman rekap nilai: `screenshots/rekap-nilai.png`
+- Halaman profil: `screenshots/Screenshot halaman 1.jpg`
+- Halaman rekap nilai: `screenshots/Screenshots halaman 2.jpg`
 
 ## 7. Referensi dan Penggunaan AI
 
@@ -66,4 +66,4 @@ Tangkapan layar halaman profil dan halaman rekap nilai akan ditambahkan setelah 
 
 ### Penggunaan AI
 
-ChatGPT digunakan sebagai bantuan untuk memahami materi, merencanakan struktur proyek, dan mempelajari kode PHP, HTML, serta CSS. Kode akan diuji dan diperiksa kembali agar dapat dipahami dan dijelaskan saat demo UTS.
+Pada projek ini, saya menggunakan ChatGPT untuk membantu dalam pegerjaannya. ChatGPT digunakan sebagai bantuan untuk memahami materi, merencanakan struktur proyek, dan mempelajari kode PHP, HTML, serta CSS. Selain dari AI, saya juga meminta bantuan kepada teman yang lebih paham.
