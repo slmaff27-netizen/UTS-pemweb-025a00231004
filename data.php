@@ -11,10 +11,10 @@ $mataKuliah = [
     ],
     [
         'kode' => 'IF102',
-        'nama' => 'Pengantar Teknologi Informasi',
+        'nama' => 'Pemrograman Berorientasi Objek',
         'sks' => 2,
         'semester' => 1,
-        'nilai_angka' => 92,
+        'nilai_angka' => 50,
     ],
     [
         'kode' => 'IF103',
@@ -25,7 +25,7 @@ $mataKuliah = [
     ],
     [
         'kode' => 'IF104',
-        'nama' => 'Sistem Digital',
+        'nama' => 'STransformasi Digital',
         'sks' => 2,
         'semester' => 1,
         'nilai_angka' => 75,
@@ -56,6 +56,6 @@ $mataKuliah = [
         'nama' => 'Aljabar Linear',
         'sks' => 3,
         'semester' => 2,
-        'nilai_angka' => 55,
+        'nilai_angka' => 80,
     ],
 ];
