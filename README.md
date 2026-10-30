@@ -1,5 +1,6 @@
 # UTS-pemweb-025a00231004
 
+
 # MyAcademic — Rekap Nilai & KRS Pribadi
 
 ## 1. Identitas Mahasiswa
@@ -53,8 +54,8 @@ Daftar ini akan disesuaikan dengan fungsi yang benar-benar digunakan dalam kode 
 
 Tangkapan layar halaman profil dan halaman rekap nilai akan ditambahkan setelah tampilan website selesai.
 
-- Halaman profil: `screenshots/Screenshot halaman 1.png`
-- Halaman rekap nilai: `screenshots/Screenshots halaman 2.png`
+- Halaman profil: `screenshots/Screenshot halaman 1.jpg`
+- Halaman rekap nilai: `screenshots/Screenshots halaman 2.jpg`
 
 ## 7. Referensi dan Penggunaan AI
 
