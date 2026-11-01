@@ -1,5 +1,13 @@
-# Object file
-*.o
+# File konfigurasi lokal
+.env
 
-# Ada Library Information
-*.ali
+# File sementara
+*.log
+*.tmp
+
+# File sistem Windows
+Thumbs.db
+Desktop.ini
+
+# File editor
+.vscode/
