@@ -49,10 +49,10 @@ sort($daftarSemester);
 
             <article>
                 <h3>Identitas Mahasiswa</h3>
-                <p>Nama: Isi nama mahasiswa</p>
-                <p>NIM: Isi NIM mahasiswa</p>
+                <p>Nama: Keenan</p>
+                <p>NIM: 0123z345678</p>
                 <p>Program Studi: Informatika</p>
-                <p>Universitas: Tiga Serangkai University</p>
+                <p>Universitas: Universitas Tiga Serangkai</p>
             </article>
 
 
